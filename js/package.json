@@ -1,0 +1,27 @@
+{
+  "name": "qa-engineer-challenge",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "keywords": [
+    "cucumberjs",
+    "bdd",
+    "setup",
+    "bootstrap",
+    "tdd",
+    "test",
+    "testing",
+    "gherkin",
+    "cucumber"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^1.10.0",
+    "cucumber": "^3.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
