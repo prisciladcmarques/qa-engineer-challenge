@@ -9,7 +9,7 @@
 
 Os professores de um grupo educacional estão avaliando o uso de um banco de questões para auxiliar a criação das atividades para os alunos.
 
-Eles encontraram o site [Open Trivia Database](https://opentdb.com) que possui milhares de questões das mais variadas áreas de conhecimento.
+Eles encontraram o site [Open Trivia Database](https://opentdb.com/browse.php) que possui milhares de questões das mais variadas áreas de conhecimento.
 
 ## Objetivo
 
