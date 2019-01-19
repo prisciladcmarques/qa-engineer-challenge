@@ -9,3 +9,4 @@
 
 ## Rodar os testes
 - `npm run test`
+

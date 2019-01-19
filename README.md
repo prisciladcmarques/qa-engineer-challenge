@@ -54,3 +54,13 @@ Cenário: Busca por categoria sem paginação
 ## Entrega
 
 A entrega pode ser feita por link do github ou arquivo .zip
+
+
+
+## O que foi feito para finalizar o teste
+visit https://github.com/mozilla/geckodriver/releases
+download the latest version of "geckodriver-vX.XX.X-linux64.tar.gz"
+unarchive the tarball (tar -xvzf geckodriver-vX.XX.X-linux64.tar.gz)
+give executable permissions to geckodriver (chmod +x geckodriver)
+move the geckodriver binary to /usr/local/bin or any location on your system PATH.
+sudo mv geckodriver /usr/local/bin/
