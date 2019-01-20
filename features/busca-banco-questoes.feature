@@ -18,7 +18,9 @@ Cenário: Busca por categoria com paginação
 
 Cenário: Busca por categoria sem paginação
   Dado que eu navego para a página de busca do banco de questões
-  E digito 'Harvard' no campo de busca
+  E digito o texto 'Harvard' no campo de busca
   Quando eu clicar no botão de buscar
   Então deve aparecer a listagem de questões com menos de 26 itens
   E não deve aparecer o controle de paginação
+
+
