@@ -57,10 +57,10 @@ A entrega pode ser feita por link do github ou arquivo .zip
 
 
 
-## O que foi feito para finalizar o teste
-visit https://github.com/mozilla/geckodriver/releases
-download the latest version of "geckodriver-vX.XX.X-linux64.tar.gz"
-unarchive the tarball (tar -xvzf geckodriver-vX.XX.X-linux64.tar.gz)
-give executable permissions to geckodriver (chmod +x geckodriver)
-move the geckodriver binary to /usr/local/bin or any location on your system PATH.
-sudo mv geckodriver /usr/local/bin/
+## Informação útil
+Para a execução dos testes é necessário ter o driver do navegador que será utilizado, como firefox ou chrome. Para este desafio foi utilizado o firefox e o tutorial seguido para a instalação foi esse:
+
+1 - visite a página (https://github.com/mozilla/geckodriver/releases) e faça o download da versão mais recente do geckodriver para o seu sistema operacional - no meu caso foi para o linux "geckodriver-vX.XX.X-linux64.tar.gz"
+2 - descompacte o arrquivo (tar -xvzf geckodriver-vX.XX.X-linux64.tar.gz)
+3 - altera as permissões do executável (chmod +x geckodriver)
+4 - mova o executável para o caminho /usr/local/bin (sudo mv geckodriver /usr/local/bin/)
