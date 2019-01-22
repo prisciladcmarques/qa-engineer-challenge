@@ -17,11 +17,14 @@ defineSupportCode(({ Given, When, Then }) => {
     return this.driver.findElement(webdriver.By.xpath("/html/body/div[1]/form/div/button")).click();
   });
 
-  Then('deve aparecer uma mensagem de erro com o texto {string}', { timeout: 90 * 1000 }, function (message) {
+Then('deve aparecer uma mensagem de erro com o texto {string}', { timeout: 90 * 1000 }, function (message) {
     var xpathErrorMessage = '/html/body/div[2]/div';
     return this.driver.findElement(webdriver.By.xpath(xpathErrorMessage))
     .then(function(element) {
-      assert.deepEqual(element, message);
+      return element.getText()
+        .then(text => {
+          assert.deepEqual(text, message);
+        })
     });      
   });
   
